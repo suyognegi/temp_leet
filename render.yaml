@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: leetcode-playwright-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
